@@ -1833,5 +1833,6 @@ Not all features in Riot are implemented in RiotX yet. Main missing (and coming 
     <string name="cannot_click_image_pix">Can not add more than %s images</string>
     <string name="location">Location</string>
     <string name="mobile_no_not_available">Mobile Number No Available</string>
+    <string name="_0_00">0:00</string>
 
 </resources>

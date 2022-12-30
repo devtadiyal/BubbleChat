@@ -349,6 +349,8 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test:rules:1.2.0'
     implementation project(path: ':appintro')
+    implementation 'com.otaliastudios:cameraview:2.6.2'
+
 }
 
 //Ensure we never move past okhttp 3.12.x
