@@ -12,7 +12,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginLeft="4dp"
         android:layout_marginRight="4dp"
         android:layout_weight="1"
@@ -22,7 +22,7 @@
             android:id="@+id/msgbg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"
             android:layout_marginTop="2dp"
             android:layout_weight=".9"
             android:background="@drawable/balloon_outgoing"
@@ -53,7 +53,7 @@
                             android:id="@+id/message_timestamp_layout"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
                             android:layout_alignParentEnd="true"
                             android:orientation="horizontal">
 
@@ -63,9 +63,8 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
                             android:layout_toStartOf="@+id/message_timestamp_layout"
-                            android:layout_toLeftOf="@+id/message_timestamp_layout"
                             android:orientation="horizontal">
 
                             <include layout="@layout/vector_message_sender" />
@@ -77,8 +76,7 @@
                         android:id="@+id/messagesAdapter_body_layout"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="4dp"
-                        android:layout_marginRight="4dp">
+                        android:layout_marginEnd="4dp">
 
                         <!-- the body is here -->
                         <RelativeLayout
@@ -99,10 +97,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="start"
                                 android:layout_marginStart="4dp"
-                                android:layout_marginLeft="4dp"
                                 android:layout_toEndOf="@id/message_adapter_e2e_icon"
-                                android:layout_toRightOf="@id/message_adapter_e2e_icon"
-                                android:gravity="right"
+                                android:gravity="end"
                                 android:textIsSelectable="false"
                                 android:textSize="14sp"
                                 tools:text="A body www.example.org" />
@@ -113,7 +109,6 @@
                                 android:layout_height="wrap_content"
                                 android:layout_below="@+id/messagesAdapter_body"
                                 android:layout_alignStart="@+id/messagesAdapter_body"
-                                android:layout_alignLeft="@+id/messagesAdapter_body"
                                 android:layout_gravity="start"
                                 android:gravity="start"
                                 android:text="@string/e2e_re_request_encryption_key"
