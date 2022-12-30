@@ -90,7 +90,7 @@ class Momentz : ConstraintLayout {
 
         val touchListener = object : OnTouchListener {
             override fun onTouch(v: View?, event: MotionEvent?): Boolean {
-                if (gestureDetector.onTouchEvent(event)) {
+                if (gestureDetector.onTouchEvent(event!!)) {
                     // single tap
                     if (v?.id == view.rightLay.id) {
                         next()

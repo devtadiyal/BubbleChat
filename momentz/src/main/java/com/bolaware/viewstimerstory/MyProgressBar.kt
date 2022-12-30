@@ -54,20 +54,21 @@ class MyProgressBar : ProgressBar {
 
     fun startProgress() {
         objectAnimator.addListener(object : Animator.AnimatorListener {
-            override fun onAnimationStart(animation: Animator?) {
 
+            override fun onAnimationStart(animation: Animator) {
+                TODO("Not yet implemented")
             }
 
-            override fun onAnimationEnd(animation: Animator?) {
+            override fun onAnimationEnd(animation: Animator) {
                 timeWatcher.onEnd(index)
             }
 
-            override fun onAnimationCancel(animation: Animator?) {
+            override fun onAnimationCancel(animation: Animator) {
                 animation?.apply { removeAllListeners() }
             }
 
-            override fun onAnimationRepeat(animation: Animator?) {
-
+            override fun onAnimationRepeat(animation: Animator) {
+                TODO("Not yet implemented")
             }
         })
         objectAnimator.apply {

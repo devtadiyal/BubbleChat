@@ -10,17 +10,16 @@
         android:id="@+id/camera_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:keepScreenOn = "true"
         android:layout_gravity="center"
-        app:cameraFacing = "back"
-        app:cameraFlash = "off"
-        app:cameraGestureLongTap = "autoFocus"
-        app:cameraGesturePinch = "zoom"
-        app:cameraGestureTap = "autoFocus"
-        app:cameraPictureFormat = "jpeg"
-        app:cameraVideoCodec = "deviceDefault"
-        app:cameraWhiteBalance = "auto"
-        />
+        android:keepScreenOn="true"
+        app:cameraFacing="back"
+        app:cameraFlash="off"
+        app:cameraGestureLongTap="autoFocus"
+        app:cameraGesturePinch="zoom"
+        app:cameraGestureTap="autoFocus"
+        app:cameraPictureFormat="jpeg"
+        app:cameraVideoCodec="deviceDefault"
+        app:cameraWhiteBalance="auto" />
 
     <LinearLayout
         android:id="@+id/video_counter_layout"
@@ -61,7 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:paddingLeft="9dp"
+            android:paddingStart="9dp"
             android:text="0:00"
             android:textColor="@android:color/white"
             android:textSize="12sp" />
@@ -110,8 +109,8 @@
                     android:layout_width="140dp"
                     android:layout_height="33dp"
                     android:layout_gravity="end"
-                    android:layout_marginRight="52dp"
                     android:layout_marginTop="64dp"
+                    android:layout_marginRight="52dp"
                     android:background="@drawable/trigger"
                     android:elevation="10dp"
                     android:gravity="center"
@@ -143,7 +142,7 @@
                         android:layout_width="40dp"
                         android:layout_height="50dp"
                         android:layout_gravity="right"
-                        android:elevation = "12dp"
+                        android:elevation="12dp"
                         android:minWidth="20dp"
                         android:paddingLeft="5dp"
                         android:src="@drawable/handle" />
@@ -165,7 +164,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_vertical"
-                            android:paddingLeft = "15dp"
+                            android:paddingLeft="15dp"
                             android:src="@drawable/ic_arrow_back_black_24dp" />
 
                         <TextView
@@ -176,25 +175,23 @@
                             android:layout_marginLeft="50dp"
                             android:layout_marginRight="10dp"
                             android:gravity="center_vertical"
+                            android:text=""
                             android:textColor="#fff"
-                            android:text = ""
-                            android:textFontWeight = "700"
-                            android:textSize = "16sp"
-                            android:textStyle = "bold"
-                            />
+                            android:textFontWeight="700"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                         <TextView
-                            android:padding = "20dp"
                             android:id="@+id/selection_ok"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical|right"
                             android:gravity="center_vertical"
+                            android:padding="20dp"
                             android:text="@string/pix_ok"
-                            android:textFontWeight = "700"
                             android:textColor="#fff"
-                            android:textSize = "12sp"
-                            />
+                            android:textFontWeight="700"
+                            android:textSize="12sp" />
 
                         <ImageView
                             android:id="@+id/selection_check"
@@ -250,8 +247,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right|bottom"
-                android:layout_marginBottom="8dp"
                 android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
                 android:padding="5dp"
                 android:textColor="#fff"
                 android:textSize="11sp" />
@@ -273,11 +270,11 @@
                 android:visibility="gone" />
 
             <ImageView
-                android:layout_marginTop="40dp"
                 android:id="@+id/clickme"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_gravity="center|bottom"
+                android:layout_marginTop="40dp"
                 android:layout_marginBottom="30dp"
                 android:background="@drawable/ring" />
 
@@ -302,8 +299,8 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="top|right"
-                android:layout_marginRight="50dp"
                 android:layout_marginTop="47dp"
+                android:layout_marginRight="50dp"
                 android:background="@drawable/circle"
                 android:padding="11dp"
                 android:src="@drawable/ic_photo_camera" />
