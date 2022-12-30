@@ -1,0 +1,233 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/number_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolbar_bottom_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appBarLayout">
+
+        <LinearLayout
+            android:id="@+id/rateContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/txtRate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_gravity="end"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:layout_marginStart="5dp"
+                    android:paddingEnd="10dp"
+                    android:text=""
+                    android:textColor="@color/button_color"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/current_bal_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/_42sdp"
+            android:background="@drawable/cb_container"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:paddingStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <TextView
+                android:id="@+id/rate"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:paddingRight="10dp"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/current_balance"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:id="@+id/cb"
+                />
+
+            <TextView
+                android:id="@+id/balance"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="end"
+                android:layout_margin="@dimen/_1sdp"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:paddingEnd="10dp"
+                app:layout_constraintStart_toEndOf="@id/cb"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:background="@drawable/cb_cont_bg"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:text=""
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:minWidth="@dimen/_70sdp"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <EditText
+
+        android:id="@+id/dialdigits"
+            style="@style/DialtactsDigitsTextAppearance"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dialer_phoneno_edittext_height"
+            android:layout_marginTop="@dimen/dialer_phoneno_edittext_top_margin"
+            android:gravity="center_horizontal"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:background="@null"
+            android:text="+91-936-222-2111"
+            android:textAlignment="center"
+            android:textCursorDrawable="@null"
+            android:textIsSelectable="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/dialer_phoneno_text_size"
+            android:textStyle="bold"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/register_container" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/register_container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_5sdp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            app:layout_constraintEnd_toEndOf="@id/current_bal_container"
+            app:layout_constraintStart_toStartOf="@id/current_bal_container"
+            app:layout_constraintTop_toBottomOf="@id/current_bal_container">
+
+            <TextView
+                android:id="@+id/txtRegStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="@dimen/_10sdp"
+                android:textColor="@color/white"
+                android:text="Registered 919362222111"
+                android:textSize="@dimen/_15sdp" />
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include
+        layout="@layout/dialpad"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_220sdp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+    </include>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="90"
+        android:orientation="vertical"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/btn_dialpad_contact"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="10"
+                android:background="@drawable/table_row_bg"
+                android:minWidth="35dp"
+                android:scaleType="center"
+                android:src="@drawable/add_user"
+                android:tint="@color/white" />
+
+            <ImageView
+                android:id="@+id/btn_dialpad_call"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@drawable/table_row_bg"
+                android:minHeight="60dp"
+                android:src="@drawable/call" />
+
+            <ImageView
+                android:id="@+id/btn_dialpad_delete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="10"
+                android:background="@drawable/table_row_bg"
+                android:scaleType="center"
+                android:src="@drawable/delete"
+                android:tint="@color/white" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

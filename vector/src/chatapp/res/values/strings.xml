@@ -1,0 +1,311 @@
+<resources>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_recent">Recent</string>
+    <string name="title_contacts">Contacts</string>
+    <string name="title_share">Share</string>
+    <string name="title_dialer">Dialer</string>
+    <string name="title_contact_details">Contact Details</string>
+
+    <string name="room_message_placeholder_not_encrypted">Send a message</string>
+    <string name="room_message_placeholder_reply_to_not_encrypted">Send a reply</string>
+
+    <string name="room_participants_online">Online</string>
+    <string name="room_participants_offline">Last seen</string>
+    <string name="room_participants_idle">Idle</string>
+
+    <string name="menu_profile">My Profile</string>
+
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_chat_main">ChatMainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="privacy_text_for_dialog">
+        Kakaki Express needs access to your contacts so that you can connect with your friends across all your devices. Your contacts will be continuously synced with Kakaki Express\'s heavily encrypted cloud servers.</string>
+    <!--    <string name="privacy_text_for_dialog">Please click on accept if you wish to enable contacts synchronisation,-->
+    <!--        Wills will upload your phonebook contacts to https://billing.adoreinfotech.co.in/crm/-->
+    <!--        \n \n Wills will not use your-->
+    <!--        phonebook contacts for any other purpose as stated above. You can always disable or enable this option from the settings menu of-->
+    <!--        the App. \n \n To know more in detail about privacy policy, please visit https://cerilog.net/privacy-policy.html/</string>-->
+    <!--    -->
+
+    <string name="privacy_text_for_dialog_1">
+        <![CDATA[ Privacy Policy
+We have Created this privacy statement in order to demonstrate our commitment to you, our customer. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website, products and Mobile Apps.The following discloses our information gathering and dissemination practices for Kakaki Express.
+
+Kakaki Express provides DID Access Number and VoIP Call along with other services to users around the globe. Our Privacy Policy helps explain our information practices. For example, we talk about what information we collect and how this affects you.
+
+This Privacy Policy ("Privacy Policy") applies to all of our apps, services, features, software, and website (together, "Services") unless specified otherwise.
+
+Information We Collect
+Kakaki Express receives or collects information when we operate and provide our Services, including when you install, access, or use our apps and softwares.
+
+Automatically Collected Information
+Usage and Log Information. We collect service-related, diagnostic, and performance information. This includes information about your activity (such as how you use our Services, how you interact with others using our Services, and the like), log files, and diagnostic, crash, website, and performance logs and reports.
+Transactional Information. If you pay for our Services, we may receive information and confirmations, such as payment receipts, including from app stores or other third parties processing your payment.
+Cookies. We use cookies to operate and provide our Services, improve your experiences, understand how our Services are being used, and customize our Services. We may use cookies to remember your choices, such as your language preferences, and otherwise to customize our Services for you.
+We use cookies to understand, secure, operate, and provide our Services. For example, we use cookies:
+* to provide Kakaki Express website and other Services, improve your experiences, understand how our Services are being used, and customize our Services;
+* to remember your choices, such as your language preferences, and otherwise to customize our Services for you
+Third-Party Information
+Third-Party Providers. We work with third-party providers to help us operate, provide, improve, understand, customize, support, and market our Services. For example, we work with companies to distribute our apps, provide our infrastructure, delivery, and other systems, process payments, help us understand how people use our Services, and market our Services. These providers may provide us information about you in certain circumstances; for example, app stores may provide us reports to help us diagnose and fix service issues.
+Third-Party Services. We allow you to use our Services in connection with third-party services. If you use our Services with such third-party services, we may receive information about you from them.
+How We Use Information
+We use all the information we have to help us operate, provide, improve, understand, customize, support, and market our products and services.
+
+Our Products & Services. We operate and provide our products & Services, including providing customer support, and improving, fixing, and customizing our Products. We understand how people use our Products, and analyze and use the information we have to evaluate and improve our Products, research, develop, and test new features, and conduct troubleshooting activities. We also use your information to respond to you when you contact us.
+Safety and Security. We verify accounts and activity, and promote safety and security on and off our Services, such as by investigating suspicious activity or violations of our Terms, and to ensure our Services are being used legally.
+Third-Party Banner Ads. We do not allow third-party banner ads on our products and mobile apps. We have no intention to introduce them, but if we ever do, we will update this policy.
+Information You And We Share
+You share your information as you use and communicate through our products and mobile apps, and we share your information to help us operate, provide, improve, understand, customize, support, and improve our Services.
+
+Account Information. Your phone number for registering our app, and we didn't share any information to third party.
+Third-Party Providers. We work with third-party providers to help us added add-ons features in our Mobile Apps. When you use these features with third-party, we require them to use your information in accordance with our instructions and terms or with express permission from you.
+Third-Party Services. When you use third-party services that are integrated with our apps, they may receive information about what you share with them. If you interact with a third-party service linked through our Services, you may be providing information directly to such third party. Please note that when you use third-party services, their own terms and privacy policies will govern your use of those services.
+Managing Your Information
+If you would like to manage, change, limit, or delete your information, we allow you to do that through the following tools:
+
+Services Settings. You can change your Services settings to manage certain information available to other users. You can manage your contacts to the others with whom you communicate.
+Deleting Your Account. You may delete your account at any time. When you delete your account, your undelivered messages are deleted from our servers as well as any of your other information we no longer need to operate and provide our Services. Be mindful that if you only delete our Services from your device without using our in-app delete my account feature, your information may be stored with us for a longer period. Please remember that when you delete your account, it does not affect the information other users have relating to you, such as their copy of the messages you sent them.
+Law And Protection
+We may collect, use, preserve, and share your information if we have a good-faith belief that it is reasonably necessary to: (a) respond pursuant to applicable law or regulations, to legal process, or to government requests; (b) enforce our Terms and any other applicable terms and policies, including for investigations of potential violations; (c) detect, investigate, prevent, and address fraud and other illegal activity, security, or technical issues; or (d) protect the rights, property, and safety of our users.
+
+Updates To Our Policy
+We may amend or update our Privacy Policy. We will provide you notice of amendments to this Privacy Policy, If you do not agree to our Privacy Policy, as amended, you must stop using our Services. Please review our Privacy Policy from time to time. If you have any query please contact us at : support@kakakicall.com"]]></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="slide_to_cancel">"Slide to cancel"</string>
+    <string name="type_a_message">Type a message</string>
+    <bool name="is_right_to_left">false</bool>
+    <string name="search_contacts">Search Contacts</string>
+    <string name="current_balance">Current Balance</string>
+    <string-array name="CountryCodes">
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>1,CA</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>1,PR</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+</resources>

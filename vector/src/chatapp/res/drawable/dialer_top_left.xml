@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetBottom="-1dp"
+    android:insetRight="-1dp"
+    android:insetTop="-1dp"
+    android:insetLeft="-1dp">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/white" />
+        <stroke android:color="@color/dialer_color"
+            android:width="@dimen/_1sdp" />
+        <corners android:topLeftRadius="@dimen/_5sdp"/>
+    </shape>
+
+</inset>

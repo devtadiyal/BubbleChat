@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chatapp.activity.CourierActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.Light.AppBarOverlay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.Light.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <im.vector.view.VectorCircularImageView
+        android:id="@+id/settings_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingLeft="15dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        tools:src="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:id="@+id/dhl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/home_item_bg"
+        android:minHeight="44dp"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/global_icon_size"
+            android:layout_height="@dimen/global_icon_size"
+            android:src="@drawable/dhl" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:text="DHL"
+            android:textSize="@dimen/global_ts" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fedex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/home_item_bg"
+        android:minHeight="44dp"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/global_icon_size"
+            android:layout_height="@dimen/global_icon_size"
+            android:src="@drawable/fedex" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:text="FedEx"
+            android:textSize="@dimen/global_ts" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:visibility="gone"
+        android:background="@drawable/home_item_bg"
+        android:minHeight="44dp"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/global_icon_size"
+            android:layout_height="@dimen/global_icon_size"
+            android:src="@drawable/gig_logistic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:text="GIG"
+            android:textSize="@dimen/global_ts" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/home_item_bg"
+        android:minHeight="44dp"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/global_icon_size"
+            android:layout_height="@dimen/global_icon_size"
+            android:src="@drawable/ups" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:text="UPS"
+            android:textSize="@dimen/global_ts" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/smartDelivery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/home_item_bg"
+        android:minHeight="44dp"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/global_icon_size"
+            android:layout_height="@dimen/global_icon_size"
+            android:src="@drawable/smart_delivery" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:text="Smart Delivery"
+            android:textSize="@dimen/global_ts" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/aramex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/home_item_bg"
+        android:minHeight="44dp"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/global_icon_size"
+            android:layout_height="@dimen/global_icon_size"
+            android:src="@drawable/aramex" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:text="Aramex"
+            android:textSize="@dimen/global_ts" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/home_item_bg"
+        android:minHeight="44dp"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/global_icon_size"
+            android:layout_height="@dimen/global_icon_size"
+            android:src="@drawable/bd" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:text="Blue Dart"
+            android:textSize="@dimen/global_ts" />
+    </LinearLayout>
+
+
+</LinearLayout>

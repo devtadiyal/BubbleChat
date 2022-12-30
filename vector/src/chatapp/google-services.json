@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "761726990606",
+    "firebase_url": "https://kakakiexpress.firebaseio.com",
+    "project_id": "kakakiexpress",
+    "storage_bucket": "kakakiexpress.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761726990606:android:5485a443de4cbe503d3f5f",
+        "android_client_info": {
+          "package_name": "com.kakaexpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761726990606-2jb8hu45hjpr7vc7gqbnac2g3d1lm7tl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCWQzo2nJf630oJ7xvtYZ6UeYNfog6TdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761726990606-2jb8hu45hjpr7vc7gqbnac2g3d1lm7tl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

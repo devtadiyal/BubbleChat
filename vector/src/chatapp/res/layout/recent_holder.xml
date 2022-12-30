@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp">
+
+        <im.vector.view.VectorCircularImageView
+            android:id="@+id/user_status_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/default_contact_avatar" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/my_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="My Status"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@id/user_status_icon"
+            app:layout_constraintStart_toEndOf="@id/user_status_icon"
+            app:layout_constraintTop_toTopOf="@id/user_status_icon"
+            app:layout_constraintVertical_bias=".3" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="Tap to status update"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@id/my_status"
+            app:layout_constraintTop_toBottomOf="@id/my_status" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_100" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/recentUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="50dp"
+        android:text="Recent Updates"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/devider_two"
+        android:background="@color/grey_100" />
+
+
+</LinearLayout>
